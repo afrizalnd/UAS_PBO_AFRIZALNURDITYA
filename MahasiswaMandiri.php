@@ -19,7 +19,7 @@ class MahasiswaMandiri extends Mahasiswa {
 
     // Mengimplementasikan metode abstrak dari kelas induk (dikongkritkan sementara)
     public function hitungTagihanSemester() {
-        return $this->tarif_ukt_nominal;
+        return $this->tarif_ukt_nominal + 100000;
     }
 
     public function tampilkanSpesifikasiAkademik() {
